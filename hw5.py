@@ -86,4 +86,4 @@ for j in range(0, datacols, 1):
         if (split != 0):
             split = (listcol[split] + listcol[split - 1]) / 2
 
-print("gini:", temp, "col:", col, "split:", split)
+print("gini: ", temp, "col(k): ", col, "split(s): ", split)
